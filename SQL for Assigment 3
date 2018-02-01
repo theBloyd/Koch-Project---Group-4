@@ -1,0 +1,4 @@
+INSERT INTO USERS
+VALUES ('0','CHASE1','ABC123','Chase','Bouse', '2018-01-29','1');
+INSERT INTO LOGIN 
+VALUES ('1','WyP','123ABC','Wyatt','Prall', '2018-01-29','1');
