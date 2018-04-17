@@ -21,38 +21,38 @@ Recruiter
 
 
 Recruiter ID (Char 2)  First Name 35 	Last Name 35 	Phone 13   Number Email 35
-INSERT INTO Recruiters VALUES('0','Derrik','Clouse','589-620-1234','clouse@wildcind.com');
-INSERT INTO Recruiters VALUES('1','','','','');
-INSERT INTO Recruiters VALUES('2','','','','');
-INSERT INTO Recruiters VALUES('3','','','','');
-INSERT INTO Recruiters VALUES('4','','','','');
-INSERT INTO Recruiters VALUES('5','','','','');
+INSERT INTO Recruiters VALUES('0','Derrik','Clouse','208 South Cottonwood Manhattan Ks ','589-620-1234','clouse@wildcind.com');
+INSERT INTO Recruiters VALUES('1','','','','','');
+INSERT INTO Recruiters VALUES('2','','','','','');
+INSERT INTO Recruiters VALUES('3','','','','','');
+INSERT INTO Recruiters VALUES('4','','','','','');
+INSERT INTO Recruiters VALUES('5','','','','','');
 
 Candidate
 Candidate_ID Char 2 First Name 20   Last Name 30   Major 35 Minor 35  College 35 Email 35 Phone Number 13 Grad year 4 Active_status 1
-INSERT INTO Candidates VALUES('0','Troy','Baker','Marketing','Spanish','Kansas State University','troyb@ksu.edu','523-896-1254','2019','0');
-INSERT INTO Candidates VALUES('1','','','','','','','','',0);
-INSERT INTO Candidates VALUES('2','','','','','','','','',0);
-INSERT INTO Candidates VALUES('3','','','','','','','','',0);
-INSERT INTO Candidates VALUES('4','','','','','','','','',0);
-INSERT INTO Candidates VALUES('5','','','','','','','','',0);
-INSERT INTO Candidates VALUES('6','','','','','','','','',0);
-INSERT INTO Candidates VALUES('7','','','','','','','','',0);
-INSERT INTO Candidates VALUES('8','','','','','','','','',0);
-INSERT INTO Candidates VALUES('9','','','','','','','','',0);
-INSERT INTO Candidates VALUES('10','','','','','','','','',0);
-INSERT INTO Candidates VALUES('11','','','','','','','','',0);
-INSERT INTO Candidates VALUES('12','','','','','','','','',0);
-INSERT INTO Candidates VALUES('13','','','','','','','','',0);
-INSERT INTO Candidates VALUES('14','','','','','','','','',0);
-INSERT INTO Candidates VALUES('15','','','','','','','','',0);
-INSERT INTO Candidates VALUES('16','','','','','','','','',0);
-INSERT INTO Candidates VALUES('17','','','','','','','','',0);
-INSERT INTO Candidates VALUES('18','','','','','','','','',0);
-INSERT INTO Candidates VALUES('19','','','','','','','','',0);
-INSERT INTO Candidates VALUES('20','','','','','','','','',0);
-INSERT INTO Candidates VALUES('21','','','','','','','','',0);
-INSERT INTO Candidates VALUES('22','','','','','','','','',0);
-INSERT INTO Candidates VALUES('23','','','','','','','','',0);
-INSERT INTO Candidates VALUES('24','','','','','','','','',1);
-INSERT INTO Candidates VALUES('25','','','','','','','','',0);
+INSERT INTO Candidates VALUES('0','Troy','Baker','123 West Heights','troyb@ksu.edu','523-896-1254','Marketing','Spanish','Kansas State University','0');
+INSERT INTO Candidates VALUES('1','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('2','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('3','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('4','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('5','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('6','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('7','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('8','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('9','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('10','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('11','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('12','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('13','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('14','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('15','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('16','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('17','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('18','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('19','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('20','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('21','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('22','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('23','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('24','','','','','','','','','',1);
+INSERT INTO Candidates VALUES('25','','','','','','','','','',0);
