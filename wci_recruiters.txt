@@ -1,0 +1,6 @@
+INSERT INTO Recruiters VALUES('0','Derrik','Clouse','208 South Cottonwood Manhattan Ks ','589-620-1234','clouse@wildcind.com');
+INSERT INTO Recruiters VALUES('1','Christina','Parker','832 Bluemont Drive Manhattan Ks ','785-413-9636','cparker@wildcind.com');
+INSERT INTO Recruiters VALUES('2','Gloria','Davis','674 Ernest Lane Manhattan Ks, ','785-320-4782','gdavis@wildcind.com');
+INSERT INTO Recruiters VALUES('3','Bill','Thomas','632 Betrand St Manhattan Ks, ','785-232-6549','bthomas@wildcind.com');
+INSERT INTO Recruiters VALUES('4','Robert','Jones','123 Petticoat Lane Manhattan Ks, ','785-467-5298','rjones@wildcind.com');
+INSERT INTO Recruiters VALUES('5','Tommy','Williams','534 Anderson Ave Manhattan KS, ','785-596-2380','twilliams@wildcind.com');
