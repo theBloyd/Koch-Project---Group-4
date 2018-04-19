@@ -1,58 +1,42 @@
-Events SQl
-FIRST ID Char(2)	 Name char 30  Description char 100  Date   Inactive = 1 
-INSERT INTO Events VALUES('0','Coffee Meet and Greet','Laid back meeting at K-State.','2018-01-29',0);
-INSERT INTO Events VALUES('2','','','2018-02-20',0);
-INSERT INTO Events VALUES('3','','','2018-02-20',0);
-INSERT INTO Events VALUES('4','','','2018-02-20',0);
-INSERT INTO Events VALUES('5','','','2018-02-20',0);
-INSERT INTO Events VALUES('6','','','2018-02-20',0);
-INSERT INTO Events VALUES('7','','','2018-02-20',0);
-INSERT INTO Events VALUES('8','','','2018-02-20',0);
-INSERT INTO Events VALUES('9','','','2018-02-20',0);
-INSERT INTO Events VALUES('10','','','2018-02-20',0);
-INSERT INTO Events VALUES('11','','','2018-02-20',0);
-INSERT INTO Events VALUES('12','','','2018-02-20',0);
-INSERT INTO Events VALUES('13','','','2018-02-20',0);
-INSERT INTO Events VALUES('14','','','2018-02-20',0);
-INSERT INTO Events VALUES('15','','','2018-02-20',0);
-INSERT INTO Events VALUES('16','','','2018-02-20',0);
+Event Inserts 
+INSERT INTO Events VALUES('1','Coffee Meet and Greet','Laid back meeting at Kansas State University','2018-01-21','0');
+INSERT INTO Events VALUES('2','Career Fair','Career Fair at Kansas University','2018-1-29','0');
+INSERT INTO Events VALUES('3','MIS Club Meeting','MIS Club Meeting at University of Nebraska','2018-02-07','0');
+INSERT INTO Events VALUES('4','Coffe Meet and Greet','Laid back meeting at University of Oklahoma','2018-02-12','0');
+INSERT INTO Events VALUES('5','MIS Club Meeting','MIS Club Meeting at Kansas State University','2018-02-20','0');
+INSERT INTO Events VALUES('6','Career Fair','Career Fair at Wichita State University','2018-02-25','0');
+INSERT INTO Events VALUES('7','Marketing Club Meeting','Marketing Club Meeting at Kansas University','2018-03-01','0');
+INSERT INTO Events VALUES('8','Career Fair','Career Fair at Kansas State University','2018-03-05','0');
+INSERT INTO Events VALUES('9','Coffee Meet and Greet','Laid back meeting at University of Nebraska','2018-03-09','0');
+INSERT INTO Events VALUES('10','Social Event','Social Event at Oklahoma State University','2018-03-15','0');
+INSERT INTO Events VALUES('11','Marketing Club Meeting','Marketing Club Meeting at Oklahoma State University','2018-03-16','0');
+INSERT INTO Events VALUES('12','Career Fair','Career Fair at Wichita State University','2018-03-22','0');
+INSERT INTO Events VALUES('13','Social Event','Social Event at Kansas State University','2018-04-02','0');
+INSERT INTO Events VALUES('14','Career Fair','Career Fair at Emporia State University','2018-04-06','0');
+INSERT INTO Events VALUES('15','Social Event','Social Event at Emporia State University','2018-04-07','0');
+
 
 Recruiter
-
-
-Recruiter ID (Char 2)  First Name 35 	Last Name 35 	Phone 13   Number Email 35
 INSERT INTO Recruiters VALUES('0','Derrik','Clouse','208 South Cottonwood Manhattan Ks ','589-620-1234','clouse@wildcind.com');
-INSERT INTO Recruiters VALUES('1','','','','','');
-INSERT INTO Recruiters VALUES('2','','','','','');
-INSERT INTO Recruiters VALUES('3','','','','','');
-INSERT INTO Recruiters VALUES('4','','','','','');
-INSERT INTO Recruiters VALUES('5','','','','','');
+INSERT INTO Recruiters VALUES('1','Christina','Parker','832 Bluemont Drive Manhattan Ks ','785-413-9636','cparker@wildcind.com');
+INSERT INTO Recruiters VALUES('2','Gloria','Davis','674 Ernest Lane Manhattan Ks, ','785-320-4782','gdavis@wildcind.com');
+INSERT INTO Recruiters VALUES('3','Bill','Thomas','632 Betrand St Manhattan Ks, ','785-232-6549','bthomas@wildcind.com');
+INSERT INTO Recruiters VALUES('4','Robert','Jones','123 Petticoat Lane Manhattan Ks, ','785-467-5298','rjones@wildcind.com');
+INSERT INTO Recruiters VALUES('5','Tommy','Williams','534 Anderson Ave Manhattan KS, ','785-596-2380','twilliams@wildcind.com');
+
 
 Candidate
-Candidate_ID Char 2 First Name 20   Last Name 30   Major 35 Minor 35  College 35 Email 35 Phone Number 13 Grad year 4 Active_status 1
-INSERT INTO Candidates VALUES('0','Troy','Baker','123 West Heights','troyb@ksu.edu','523-896-1254','Marketing','Spanish','Kansas State University','0');
-INSERT INTO Candidates VALUES('1','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('2','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('3','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('4','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('5','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('6','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('7','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('8','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('9','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('10','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('11','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('12','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('13','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('14','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('15','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('16','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('17','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('18','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('19','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('20','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('21','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('22','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('23','','','','','','','','','',0);
-INSERT INTO Candidates VALUES('24','','','','','','','','','',1);
-INSERT INTO Candidates VALUES('25','','','','','','','','','',0);
+INSERT INTO Candidates VALUES('0','Troy','Baker','123 West Heights Manhattan KS','troyb@ksu.edu','523-896-1254','Marketing','Spanish','Kansas State University','2020','0');
+INSERT INTO Candidates VALUES('1','Jake','Nathan','543 Haymaker Manhattan, KS','nand@gmail.com','913-516-2116','Business Management','NA','Kansas State University','2019','0');
+INSERT INTO Candidates VALUES('2','Joshua','Anderson','1863 Elaine Drive Emporia, KS ','arnoldjosh@gmail.com','786-454-1036','Computer Science','History','Emporia State University ','2018','0');
+INSERT INTO Candidates VALUES('3','Jack','Flowers','1131 Thurston St Manhattan, KS','j96@gmail.com','316-737-5782','Marketing','Accounting','Kansas State Universtiy','2020','0');
+INSERT INTO Candidates VALUES('4','Casey','Franson','1111 Vattier St Lawrence, KS','Fcase@gmail.com','789-523-5478','Finance','French','Kansas University','2020','0');
+INSERT INTO Candidates VALUES('5','Ryan','Engel','1904 Grandview Dr Emporia, KS','engel66@gmail.com','698-756-8523','Agricultural Science','NA','Emporia State Universtiy','2019','0');
+INSERT INTO Candidates VALUES('6','Chase','Bush','104 Grandview Dr Emporia, KS','cbush1@gmail.com','913-827-3222','Computer Science','Marketing','Emporia State University','2018','0');
+INSERT INTO Candidates VALUES('7','Ian','Crews','111 Haymaker Manhattan, KS','iancgmail.com','785-789-4757','Nuclear Engineering','NA','Kansas State University','2018','0');
+INSERT INTO Candidates VALUES('8','Kim','Easton','1832 claflin rd Manhattan, KS','Keas19@gmail.com','316-377-9855','Marketing','Public Relations','Kansas State university','2020','0');
+INSERT INTO Candidates VALUES('9','Alex','Locie','1904 Grandview Lincoln, NE ','alexloc@gmail.com','913-852-2747','Computer Science','Biology','University of Nebraska','2019','0');
+INSERT INTO Candidates VALUES('10','Charlie','Pittman','805 Fremont St Stillwater, OK','char.pitt@gmail.com','763-945-8526','Finance','Marekting','Oklahoma State Universtiy','2020','0');
+INSERT INTO Candidates VALUES('11','Kobie','Edwards','430 Butterfield Rd Norman, OK','kobeds@gmail.com','789-654-2134','Civil Engineering','NA','University of Oklahoma','2020','0');
+INSERT INTO Candidates VALUES('12','Orion','O'Connor','3513 W 97th Pl Wichita, KS','OroC@gmail.com','913-857-5118','Marketing','NA','Wichita State University','2019','0');
+INSERT INTO Candidates VALUES('13','Alec','Hittle','1863 Grandview Stillwater, OK','Alecht@gmail.com','745-897-6241','Accounting','Computer Science','Oklahoma State University','2018','0');
