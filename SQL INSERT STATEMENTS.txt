@@ -13,51 +13,47 @@ INSERT INTO Events VALUES('11','Marketing Club Meeting','Marketing Club Meeting'
 INSERT INTO Events VALUES('12','Career Fair','Career Fair', 'Wichita State University','2018-03-22','0');
 INSERT INTO Events VALUES('13','Social Event','Social Event', 'Kansas State University','2018-04-02','0');
 INSERT INTO Events VALUES('14','Career Fair','Career Fair', 'Emporia State University','2018-04-06','0');
-INSERT INTO Events VALUES('15','Social Event','Social Event', 'Emporia State University','2018-04-07','0');
+INSERT INTO Events VALUES('15','Social Event','Social Event', 'Emporia State University','2018-05-07','0');
 
 
 Recruiter
-INSERT INTO Recruiters VALUES('r0','Derrik','Clouse','208 South Cottonwood Manhattan Ks ','589-620-1234','clouse@wildcind.com');
-INSERT INTO Recruiters VALUES('r1','Christina','Parker','832 Bluemont Drive Manhattan Ks ','785-413-9636','cparker@wildcind.com');
-INSERT INTO Recruiters VALUES('r2','Gloria','Davis','674 Ernest Lane Manhattan Ks, ','785-320-4782','gdavis@wildcind.com');
-INSERT INTO Recruiters VALUES('r3','Bill','Thomas','632 Betrand St Manhattan Ks, ','785-232-6549','bthomas@wildcind.com');
-INSERT INTO Recruiters VALUES('r4','Robert','Jones','123 Petticoat Lane Manhattan Ks, ','785-467-5298','rjones@wildcind.com');
-INSERT INTO Recruiters VALUES('r5','Tommy','Williams','534 Anderson Ave Manhattan KS, ','785-596-2380','twilliams@wildcind.com');
+INSERT INTO Recruiters VALUES('0','Derrik','Clouse','208 South Cottonwood', 'Manhattan','KS','66502','589-620-1234','clouse@wildcind.com');
+INSERT INTO Recruiters VALUES('1','Christina','Parker','832 Bluemont Drive', 'Manhattan','KS','66502','785-413-9636','cparker@wildcind.com');
+INSERT INTO Recruiters VALUES('2','Gloria','Davis','674 Ernest Lane', 'Manhattan', 'KS','66502','785-320-4782','gdavis@wildcind.com');
+INSERT INTO Recruiters VALUES('3','Bill','Thomas','632 Betrand St', 'Manhattan', 'KS','66502','785-232-6549','bthomas@wildcind.com');
+INSERT INTO Recruiters VALUES('4','Robert','Jones','123 Petticoat Lane', 'Manhattan','KS','66502','785-467-5298','rjones@wildcind.com');
+INSERT INTO Recruiters VALUES('5','Tommy','Williams','534 Anderson Ave', 'Manhattan','KS','66502','785-596-2380','twilliams@wildcind.com');
 
 
 Candidate
-INSERT INTO Candidates VALUES('c0','Troy','Baker','123 West Heights Manhattan KS','troyb@ksu.edu','523-896-1254','Marketing','Spanish','Kansas State University','2020','0');
-INSERT INTO Candidates VALUES('c1','Jake','Nathan','543 Haymaker Manhattan, KS','nand@gmail.com','913-516-2116','Business Management','NA','Kansas State University','2019','0');
-INSERT INTO Candidates VALUES('c2','Joshua','Anderson','1863 Elaine Drive Emporia, KS ','arnoldjosh@gmail.com','786-454-1036','Computer Science','History','Emporia State University ','2018','0');
-INSERT INTO Candidates VALUES('c3','Jack','Flowers','1131 Thurston St Manhattan, KS','j96@gmail.com','316-737-5782','Marketing','Accounting','Kansas State Universtiy','2020','0');
-INSERT INTO Candidates VALUES('c4','Casey','Franson','1111 Vattier St Lawrence, KS','Fcase@gmail.com','789-523-5478','Finance','French','Kansas University','2020','0');
-INSERT INTO Candidates VALUES('c5','Ryan','Engel','1904 Grandview Dr Emporia, KS','engel66@gmail.com','698-756-8523','Agricultural Science','NA','Emporia State Universtiy','2019','0');
-INSERT INTO Candidates VALUES('c6','Chase','Bush','104 Grandview Dr Emporia, KS','cbush1@gmail.com','913-827-3222','Computer Science','Marketing','Emporia State University','2018','0');
-INSERT INTO Candidates VALUES('c7','Ian','Crews','111 Haymaker Manhattan, KS','iancgmail.com','785-789-4757','Nuclear Engineering','NA','Kansas State University','2018','0');
-INSERT INTO Candidates VALUES('c8','Kim','Easton','1832 claflin rd Manhattan, KS','Keas19@gmail.com','316-377-9855','Marketing','Public Relations','Kansas State university','2020','0');
-INSERT INTO Candidates VALUES('c9','Alex','Locie','1904 Grandview Lincoln, NE ','alexloc@gmail.com','913-852-2747','Computer Science','Biology','University of Nebraska','2019','0');
-INSERT INTO Candidates VALUES('c10','Charlie','Pittman','805 Fremont St Stillwater, OK','char.pitt@gmail.com','763-945-8526','Finance','Marekting','Oklahoma State Universtiy','2020','0');
-INSERT INTO Candidates VALUES('c11','Kobie','Edwards','430 Butterfield Rd Norman, OK','kobeds@gmail.com','789-654-2134','Civil Engineering','NA','University of Oklahoma','2020','0');
-INSERT INTO Candidates VALUES('c12','Orion','O'Connor','3513 W 97th Pl Wichita, KS','OroC@gmail.com','913-857-5118','Marketing','NA','Wichita State University','2019','0');
-INSERT INTO Candidates VALUES('c13','Alec','Hittle','1863 Grandview Stillwater, OK','Alecht@gmail.com','745-897-6241','Accounting','Computer Science','Oklahoma State University','2018','0');
+INSERT INTO Candidates VALUES('0','Troy','Baker','123 West Heights','Manhattan', 'KS','66502','troyb@ksu.edu','523-896-1254','Marketing','Spanish','Kansas State University','2020','0');
+INSERT INTO Candidates VALUES('1','Jake','Nathan','543 Haymaker', 'Manhattan', 'KS','66502','nand@gmail.com','913-516-2116','Business Management','NA','Kansas State University','2019','0');
+INSERT INTO Candidates VALUES('2','Joshua','Anderson','1863 Elaine Drive', 'Emporia', 'KS','52346','arnoldjosh@gmail.com','786-454-1036','Computer Science','History','Emporia State University ','2018','0');
+INSERT INTO Candidates VALUES('3','Jack','Flowers','1131 Thurston St', 'Manhattan','KS','66502','j96@gmail.com','316-737-5782','Marketing','Accounting','Kansas State Universtiy','2020','0');
+INSERT INTO Candidates VALUES('4','Casey','Franson','1111 Vattier St', 'Lawrence', 'KS','66507','Fcase@gmail.com','789-523-5478','Finance','French','Kansas University','2020','0');
+INSERT INTO Candidates VALUES('5','Ryan','Engel','1904 Grandview Dr', 'Emporia','KS','52346','engel66@gmail.com','698-756-8523','Agricultural Science','NA','Emporia State Universtiy','2019','0');
+INSERT INTO Candidates VALUES('6','Chase','Bush','104 Grandview Dr', 'Emporia','KS','52346','cbush1@gmail.com','913-827-3222','Computer Science','Marketing','Emporia State University','2018','0');
+INSERT INTO Candidates VALUES('7','Ian','Crews','111 Haymaker', 'Manhattan','KS','66502','iancgmail.com','785-789-4757','Nuclear Engineering','NA','Kansas State University','2018','0');
+INSERT INTO Candidates VALUES('8','Kim','Easton','1832 Claflin rd', 'Manhattan','KS','66502','Keas19@gmail.com','316-377-9855','Marketing','Public Relations','Kansas State university','2020','0');
+INSERT INTO Candidates VALUES('9','Alex','Locie','1904 Grandview', 'Lincoln', 'NE','35698','alexloc@gmail.com','913-852-2747','Computer Science','Biology','University of Nebraska','2019','0');
+INSERT INTO Candidates VALUES('10','Charlie','Pittman','805 Fremont St', 'Stillwater','OK','56895','char.pitt@gmail.com','763-945-8526','Finance','Marekting','Oklahoma State Universtiy','2020','0');
+INSERT INTO Candidates VALUES('11','Kobie','Edwards','430 Butterfield Rd','Norman', 'OK','89745','kobeds@gmail.com','789-654-2134','Civil Engineering','NA','University of Oklahoma','2020','0');
+INSERT INTO Candidates VALUES('12','Orion','O'Connor','3513 W 97th Pl', 'Wichita', 'KS','66895','OroC@gmail.com','913-857-5118','Marketing','NA','Wichita State University','2019','0');
+INSERT INTO Candidates VALUES('13','Alec','Hittle','1863 Grandview', 'Stillwater', 'OK','56895','Alecht@gmail.com','745-897-6241','Accounting','Computer Science','Oklahoma State University','2018','0');
 
 Login
-INSERT INTO User_Login VALUES ('DerrikCr','P@ssword1',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('ChristinaPr','123ABC456',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('GloriaDr','Sunnydazz12',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('BillTr','Happysun1234',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('RobertJr','joker12',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('TommyWr','15Southme',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('TroyB','Mewinner12',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('JakeN','Totalz12',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('JoshuaA','Pretty23',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('CaseyF','Iwork3',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('RyanE','Winner12!',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('ChaseB','Inncorrect1',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('IanC','IamC12',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('KimE','Kimmy15',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('AlexL','SnowySun15',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('CharlieP','Pittfall16',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('KobieE','Kobiee16',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('OrionOC','Faraway18',CURRENT_TIMESTAMP)
-INSERT INTO User_Login VALUES ('AlecH','Resting20',CURRENT_TIMESTAMP)
+INSERT INTO User_Login  (Username,Password)
+VALUES ('DerrikC','P@ssword1',)
+INSERT INTO User_Login  (Username,Password)
+VALUES ('ChristinaP','123ABC456')
+INSERT INTO User_Login  (Username,Password)
+VALUES ('GloriaD','Sunnydazz12')
+INSERT INTO User_Login  (Username,Password)
+VALUES ('BillT','Happysun1234')
+INSERT INTO User_Login  (Username,Password)
+VALUES ('RobertJ','joker12')
+INSERT INTO User_Login  (Username,Password)
+VALUES ('TommyW','15Southme')
+
+
+
